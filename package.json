@@ -1,10 +1,17 @@
 {
-  "name": "gif.js",
-  "version": "0.2.0",
+  "name": "@iangtim/gif.js",
+  "version": "0.2.1",
   "description": "JavaScript GIF encoding library",
   "author": "Johan Nordberg <code@johan-nordberg.com>",
+  "contributors": [
+    {
+      "name": "Tim Iang",
+      "email": "tim@iang.tech",
+      "url": "https://github.com/iangtim"
+    }
+  ],
   "main": "index.js",
-  "repository": "https://github.com/jnordberg/gif.js.git",
+  "repository": "https://github.com/iangtim/gif.js",
   "devDependencies": {
     "browserify": "^13.1.1",
     "coffeeify": "^2.1.0",

@@ -43,7 +43,7 @@ class GIF extends EventEmitter
 
   addFrame: (image, options={}) ->
     frame = {}
-    frame.transparent = @options.transparent
+    frame.transparent = options.transparent or @options.transparent
     for key of frameDefaults
       frame[key] = options[key] or frameDefaults[key]
 
